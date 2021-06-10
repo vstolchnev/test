@@ -5,6 +5,7 @@ from modems import Modem
 from numbers import Numbers
 from CarPark import CarPark
 from Fish import fishing
+from insects import Insects
 
 
 def main():
@@ -20,8 +21,9 @@ def main():
 	print(modem1.getinfo())
 	fishing = fishing()
     fishing.getFish()
+    bee = Insects('bee', true)
+    bee.walk
 
 	
 if __name__ == "__main__":
 	main()
-
