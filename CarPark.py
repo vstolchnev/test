@@ -1,3 +1,4 @@
+from animals import Animals
 class CarPark:
     __numberOfCarsInCategoryA = 0
     __numberOfCarsInCategoryB = 0
@@ -27,6 +28,9 @@ class CarPark:
             return "Open"
         return "Closed"
 
+def getAnimalsArray():
+    arr = [Animals("Жора", "Желтый", 32), Animals("Гена", "Черный", 15), Animals("Борис", "Красный", 10)]
+    return arr
         
 obj = CarPark(10, 30, 15)
 obj.setStateOfThePark(True)
