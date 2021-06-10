@@ -32,6 +32,6 @@ def getAnimalsArray():
     arr = [Animals("Жора", "Желтый", 32), Animals("Гена", "Черный", 15), Animals("Борис", "Красный", 10)]
     return arr
         
-obj = CarPark(10, 30, 15)
+obj = CarPark(10, 40, 15)
 obj.setStateOfThePark(True)
 obj.printInfoAboutCarPark()
