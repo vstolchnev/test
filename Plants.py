@@ -1,3 +1,4 @@
+from Fish import fishing
 class Plants():
     def __init__(self):
         pass
@@ -6,5 +7,7 @@ class Plants():
         a = {'Клевер', 'Дуб', 'Ясень', 'Плющ'}
         print (a)
 
+fishing = fishing()
+fishing.getFish
 plants = Plants()
 plants.writing()
