@@ -1,5 +1,5 @@
 from animals import Animals
-from 11 import Numbers
+from numbers import Numbers
 
 def main():
 	crocodile = Animals('крокодил', 'зеленый', '22')
