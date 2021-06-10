@@ -6,7 +6,7 @@ from numbers import Numbers
 from CarPark import CarPark
 from Fish import fishing
 from insects import Insects
-
+from PlayingCards import Playing_Cards
 
 def main():
 	crocodile = Animals('крокодил', 'зеленый', '22')
@@ -23,7 +23,8 @@ def main():
     fishing.getFish()
     bee = Insects('bee', true)
     bee.walk
-
+	trump_card = Playing_Cards()
+    trump_card.get_trump_card()
 	
 if __name__ == "__main__":
 	main()
