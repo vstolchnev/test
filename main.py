@@ -4,6 +4,7 @@ from Plants import Plants
 from modems import Modem
 from numbers import Numbers
 from CarPark import CarPark
+from Fish import fishing
 
 
 def main():
@@ -17,6 +18,8 @@ def main():
 	car.printInfoAboutCarPark()
 	modem1 = Modem('внутренний', 'аппаратный', 'powerline')
 	print(modem1.getinfo())
+	fishing = fishing()
+    fishing.getFish()
 
 	
 if __name__ == "__main__":
