@@ -19,9 +19,4 @@ class fishing():
             print(self.caughtFish[j])
             
             
-greatFishing = fishing()
 
-for i in range(10):
-    greatFishing.getFish()
-
-greatFishing.bucket()

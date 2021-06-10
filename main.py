@@ -1,15 +1,27 @@
 from animals import Animals
+from number import Numbers
+from Plants import Plants
+from modems import Modem
 from numbers import Numbers
+from CarPark import CarPark
 from Fish import fishing
+
 
 def main():
 	crocodile = Animals('крокодил', 'зеленый', '22')
 	crocodile.get_info()
 	num = Numbers()
-	num.info() 
-    fishing = fishing()
+	num.info()
+	plants = Plants()
+	plants.writing
+	car = CarPark(20, 50, 10)
+	car.printInfoAboutCarPark()
+	modem1 = Modem('внутренний', 'аппаратный', 'powerline')
+	print(modem1.getinfo())
+	fishing = fishing()
     fishing.getFish()
 
-
+	
 if __name__ == "__main__":
 	main()
+
