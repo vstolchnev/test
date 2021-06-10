@@ -1,6 +1,7 @@
 from animals import Animals
 from numbers import Numbers
 from CarPark import CarPark
+from number import Numbers
 
 def main():
 	crocodile = Animals('крокодил', 'зеленый', '22')
