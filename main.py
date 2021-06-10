@@ -1,8 +1,8 @@
-from animals import Animals
+from CarPark import CarPark
 
 def main():
-	crocodile = Animals('крокодил', 'зеленый', '22')
-	crocodile.get_info()
+	car = CarPark(20, 50, 10)
+	car.printInfoAboutCarPark()
 
 
 if __name__ == "__main__":
