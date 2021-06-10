@@ -7,6 +7,7 @@ from CarPark import CarPark
 from Fish import fishing
 from insects import Insects
 from PlayingCards import Playing_Cards
+from main_shoes import shoes
 
 def main():
 	crocodile = Animals('крокодил', 'зеленый', '22')
@@ -25,6 +26,8 @@ def main():
     bee.walk
 	trump_card = Playing_Cards()
     trump_card.get_trump_card()
+    shoes = shoes()
+    shoes.get_shoes()
 	
 if __name__ == "__main__":
 	main()
