@@ -20,7 +20,7 @@ namespace EventsExample2019_643
     }
     protected override decimal Calculate(decimal parFirstArgument, decimal parSecondArgument)
     {
-      
+      // Комментарий второго разработчика
       return parFirstArgument + parSecondArgument;
     }
   }
