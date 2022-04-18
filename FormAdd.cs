@@ -14,7 +14,7 @@ namespace EventsExample2019_643
   {
     public FormAdd(decimal parFirstArgument, Calculation parCalculation) : base(parFirstArgument, parCalculation, "+")
     {
-      // sdsfsfdsfsfs
+      // Комментарий первого разработчика
       InitializeComponent();
       this.ClientSize = new System.Drawing.Size(406, 108);
     }
