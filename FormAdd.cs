@@ -12,6 +12,7 @@ namespace EventsExample2019_643
 {
   public partial class FormAdd : FormCalculation
   {
+    private int _number;
     public FormAdd(decimal parFirstArgument, Calculation parCalculation) : base(parFirstArgument, parCalculation, "+")
     {
       // Комментарий первого разработчика
