@@ -12,3 +12,12 @@ class ProductItem:
         
     def set_price(self, dbId, price):
         pass
+
+class bulb(ProductItem):
+    color = "Теплый"
+    def glowing(self):
+        return "Лампочка светится"
+if __name__ == "__main__":
+    blb = bulb(55,bulb,"light",340)
+    blb.glowing()
+    print("Цвет лампочки",blb.color)
