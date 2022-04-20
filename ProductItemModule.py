@@ -1,3 +1,6 @@
+from Drill import Drill
+
+
 class ProductItem:
     dbId = 0
     artikul = "z0000qw"
@@ -12,3 +15,15 @@ class ProductItem:
         
     def set_price(self, dbId, price):
         pass
+
+    def getInfo(self):
+        print(self.artikul + " " + self.name + " price" + self.price)
+
+if __name__ == '__main__':
+    pr = ProductItem()
+    drill = Drill()
+
+    data = [pr, drill]
+
+    for element in data:
+        element.getInfo()
