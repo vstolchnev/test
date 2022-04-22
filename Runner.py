@@ -1,10 +1,16 @@
-import ProductItemModule
+import importlib
+import glob
+import os
 
-ItemList = []
+main_module_name = 'ProductItemModule'
+module_name = 'ProductModule'
+current_modle_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), module_name) 
 
-TestItem = ProductItemModule.ProductItem
+for file in glob.glob(current_modle_dir + "/*.py"):
+    name = os.path.splitext(os.path.basename(file))[0]
 
-ItemList.append(TestItem(0,"0000","TestItem",0))
-
-for item in ItemList:
-    print(item.get_info())
+    if name != main_module_name:
+        module = importlib.import_module(module_name + '.' + name)
+        model = getattr(module, name)
+        print('\nModel: ' + name)
+        model().get_info()
