@@ -1,10 +1,11 @@
 import ProductItemModule
+import HairDryerModule
 import Mixer
 ItemList = []
 
-TestItem = ProductItemModule.ProductItem
+HairDryer = HairDryerModule.Hairdryer
 Mixer = Mixer.Mixer
-ItemList.append(TestItem(0,"0000","TestItem",0))
+ItemList.append(HairDryer(12, "a0012bc", "Hairdryer", 1500, 800))
 ItemList.append(Mixer(12, "a0012bc", "Mixer", 1500, 800))
 
 for item in ItemList:
