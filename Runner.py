@@ -1,10 +1,9 @@
-import ProductItemModule
-
+import HairDryerModule
 ItemList = []
 
-TestItem = ProductItemModule.ProductItem
+HairDryer = HairDryerModule.Hairdryer
 
-ItemList.append(TestItem(0,"0000","TestItem",0))
+ItemList.append(HairDryer(12, "a0012bc", "Hairdryer", 1500, 800))
 
 for item in ItemList:
     print(item.get_info())
