@@ -12,3 +12,6 @@ class ProductItem:
         
     def set_price(self, dbId, price):
         pass
+
+    def get_info (self):
+        return 'Номер: {}. Арт: {}. Название: {}. Цена: {}'.format(str(self.dbId),str(self.artikul),str(self.name),str(self.price))
